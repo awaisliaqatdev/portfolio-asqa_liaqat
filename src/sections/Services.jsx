@@ -75,9 +75,9 @@ export default function Services() {
           })}
         </motion.div>
 
-        <div className="flex items-center gap-4 my-16 max-w-2xl mx-auto">
+          <div className="flex items-center gap-4 my-16 max-w-2xl mx-auto">
           <div className="flex-1 h-px bg-border" />
-          <span className="text-xs font-semibold text-text-muted uppercase tracking-widest whitespace-nowrap font-heading text-center">
+          <span className="text-[10px] sm:text-xs font-semibold text-text-muted uppercase tracking-wider sm:tracking-widest font-heading text-center leading-tight">
             Transform Your Research into Publication-Ready Work
           </span>
           <div className="flex-1 h-px bg-border" />

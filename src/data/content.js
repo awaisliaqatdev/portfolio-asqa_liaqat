@@ -64,20 +64,6 @@ export const education = [
     projectDescription:
       "Conducted comprehensive research analyzing patient compliance, medication adherence, and factors influencing treatment outcomes within public and private healthcare settings.",
   },
-  {
-    id: 4,
-    degree: "F.Sc. (Pre-Medical)",
-    institution: "Superior College for Girls",
-    location: "Nazim Town, Near Grid Station, Sahiwal",
-    duration: "Completed",
-  },
-  {
-    id: 5,
-    degree: "Matriculation (Science Group)",
-    institution: "City District Government Girls High School",
-    location: "Kot Khawaja Saeed, Lahore",
-    duration: "Completed",
-  },
 ];
 
 export const experience = [

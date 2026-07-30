@@ -58,7 +58,7 @@ export default function Navbar() {
               }}
               whileHover={{ scale: 1.02 }}
             >
-              <div className="hidden sm:block">
+              <div className="block">
                 <span className="font-heading font-bold text-lg text-text-primary block leading-tight">
                   Dr. Aqsa
                 </span>

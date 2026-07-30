@@ -110,20 +110,35 @@ export default function Hero() {
           </motion.div>
 
           <motion.div
-            className="relative hidden lg:flex items-center justify-center"
+            className="relative flex items-center justify-center"
             initial={{ opacity: 0, x: 40 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
           >
-            <div className="relative w-full max-w-md aspect-square">
+            <div className="relative w-full max-w-sm md:max-w-md">
               <div className="absolute inset-0 rounded-3xl gradient-bg opacity-10 rotate-6" />
-              <div className="absolute inset-0 rounded-3xl bg-surface border border-border shadow-elevated overflow-hidden">
-                <div className="absolute inset-0 flex flex-col items-center justify-center p-10 text-center">
-                  <div
-                    className="w-32 h-32 rounded-full gradient-bg p-1 mb-6 shadow-lg"
-                    onContextMenu={(e) => e.preventDefault()}
-                  >
-                    <div className="w-full h-full rounded-full bg-[url(/hero_photo.png)] bg-cover bg-center pointer-events-none select-none" />
+              <div className="relative rounded-3xl bg-surface border border-border shadow-elevated overflow-hidden">
+
+                <motion.div
+                  className="absolute top-4 right-4 items-center gap-1.5 bg-accent text-white px-3 py-1.5 rounded-pill text-[11px] font-semibold font-heading shadow-md hidden md:flex"
+                  animate={floatingAnimation}
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
+                  Available for Collaboration
+                </motion.div>
+
+                <div className="flex flex-col items-center justify-center p-6 md:p-10 text-center">
+                  <div className="relative mb-4 md:mb-6">
+                    <div
+                      className="w-24 h-24 md:w-32 md:h-32 rounded-full gradient-bg p-1 shadow-lg mx-auto"
+                      onContextMenu={(e) => e.preventDefault()}
+                    >
+                      <div className="w-full h-full rounded-full bg-[url(/hero_photo.png)] bg-cover bg-center pointer-events-none select-none" />
+                    </div>
+                    <div className="md:hidden flex items-center justify-center gap-1.5 mt-2">
+                      <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
+                      <span className="text-[10px] font-semibold text-accent-dark font-heading">Available for Collaboration</span>
+                    </div>
                   </div>
                   <h3 className="font-heading font-bold text-xl text-text-primary mb-1">
                     Dr. Aqsa Liaqat
@@ -141,22 +156,14 @@ export default function Hero() {
                 </div>
 
                 <motion.div
-                  className="absolute top-4 right-4 flex items-center gap-1.5 bg-accent text-white px-3 py-1.5 rounded-pill text-[11px] font-semibold font-heading shadow-md"
-                  animate={floatingAnimation}
-                >
-                  <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
-                  Available for Collaboration
-                </motion.div>
-
-                <motion.div
-                  className="absolute bottom-8 left-6 w-14 h-14 rounded-2xl bg-primary-10 border border-primary/20 flex items-center justify-center"
+                  className="absolute bottom-8 left-6 w-14 h-14 rounded-2xl bg-primary-10 border border-primary/20 items-center justify-center hidden md:flex"
                   animate={{ y: [5, -5, 5], transition: { duration: 4, repeat: Infinity, ease: "easeInOut" } }}
                 >
                   <BookOpen size={20} className="text-primary" />
                 </motion.div>
 
                 <motion.div
-                  className="absolute top-1/2 left-6 w-12 h-12 rounded-xl bg-secondary-5 border border-secondary/10 flex items-center justify-center"
+                  className="absolute top-1/2 left-6 w-12 h-12 rounded-xl bg-secondary-5 border border-secondary/10 items-center justify-center hidden md:flex"
                   animate={{ y: [-4, 4, -4], transition: { duration: 5, repeat: Infinity, ease: "easeInOut" } }}
                 >
                   <Award size={18} className="text-secondary" />
