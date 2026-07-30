@@ -24,7 +24,7 @@ export default function Footer() {
                   Dr. Aqsa Liaqat
                 </span>
                 <span className="text-xs text-white/50 font-medium">
-                  PharmD · MPhil Clinical Pharmacy
+                  PhD Scholar · MPhil Clinical Pharmacy · PharmD
                 </span>
               </div>
             </div>

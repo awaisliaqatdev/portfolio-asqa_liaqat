@@ -26,7 +26,6 @@ export default function Leadership() {
     <section id="leadership" className="section-padding bg-background">
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         <SectionHeader
-          badge="Leadership & Societies"
           title="Professional Engagement"
           description="Active involvement in pharmaceutical societies and leadership activities."
         />

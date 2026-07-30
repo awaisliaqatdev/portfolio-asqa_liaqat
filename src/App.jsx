@@ -6,6 +6,7 @@ import Education from "./sections/Education";
 import Experience from "./sections/Experience";
 import Research from "./sections/Research";
 import Skills from "./sections/Skills";
+import Services from "./sections/Services";
 import Achievements from "./sections/Achievements";
 import Leadership from "./sections/Leadership";
 import Contact from "./sections/Contact";
@@ -21,6 +22,7 @@ export default function App() {
         <Experience />
         <Research />
         <Skills />
+        <Services />
         <Achievements />
         <Leadership />
         <Contact />

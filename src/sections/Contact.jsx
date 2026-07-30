@@ -56,7 +56,6 @@ export default function Contact() {
     <section id="contact" className="section-padding bg-surface">
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         <SectionHeader
-          badge="Get in Touch"
           title="Let's Connect"
           description="Interested in collaboration, consultation, or professional opportunities? I'd love to hear from you."
         />
@@ -146,7 +145,7 @@ export default function Contact() {
                 <div className="text-center">
                   <MapPin size={28} className="text-accent mx-auto mb-2" />
                   <p className="text-sm font-medium text-text-primary">
-                    Shadbagh, Lahore
+                    Khayaban-e-Amin, Lahore
                   </p>
                   <p className="text-xs text-text-muted">Pakistan</p>
                 </div>

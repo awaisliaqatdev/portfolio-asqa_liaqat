@@ -19,7 +19,6 @@ export default function Experience() {
     <section id="experience" className="section-padding bg-background">
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         <SectionHeader
-          badge="Experience"
           title="Professional Journey"
           description="A track record of academic teaching, research coordination, and institutional leadership."
         />

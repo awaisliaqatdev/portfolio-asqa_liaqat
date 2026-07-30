@@ -49,29 +49,24 @@ export default function Navbar() {
         transition={{ duration: 0.6, ease: "easeOut" }}
       >
         <div className="max-w-7xl mx-auto px-5 lg:px-8 flex items-center justify-between">
-          <motion.a
-            href="#hero"
-            className="flex items-center gap-3"
-            onClick={(e) => {
-              e.preventDefault();
-              handleNav("#hero");
-            }}
-            whileHover={{ scale: 1.02 }}
-          >
-            <div className="w-10 h-10 rounded-xl gradient-bg flex items-center justify-center">
-              <span className="text-white font-heading font-bold text-sm">
-                AL
-              </span>
-            </div>
-            <div className="hidden sm:block">
-              <span className="font-heading font-bold text-lg text-text-primary block leading-tight">
-                Dr. Aqsa
-              </span>
-              <span className="text-[11px] text-text-muted font-medium tracking-wide">
-                PharmD · MPhil
-              </span>
-            </div>
-          </motion.a>
+            <motion.a
+              href="#hero"
+              className="flex items-center gap-3"
+              onClick={(e) => {
+                e.preventDefault();
+                handleNav("#hero");
+              }}
+              whileHover={{ scale: 1.02 }}
+            >
+              <div className="hidden sm:block">
+                <span className="font-heading font-bold text-lg text-text-primary block leading-tight">
+                  Dr. Aqsa
+                </span>
+                <span className="text-[11px] text-text-muted font-medium tracking-wide">
+                  PhD Scholar
+                </span>
+              </div>
+            </motion.a>
 
           <nav className="hidden lg:flex items-center gap-1">
             {navLinks.map((link) => {
@@ -106,11 +101,8 @@ export default function Navbar() {
 
           <div className="hidden lg:flex items-center gap-3">
             <motion.a
-              href="#contact"
-              onClick={(e) => {
-                e.preventDefault();
-                handleNav("#contact");
-              }}
+              href="/AqsaLiaqat_CV.pdf"
+              download="AqsaLiaqat_CV.pdf"
               className="inline-flex items-center gap-2 bg-primary text-white px-5 py-2.5 rounded-button text-sm font-semibold font-heading hover:bg-primary-light transition-colors duration-200"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
@@ -179,11 +171,8 @@ export default function Navbar() {
 
               <div className="mt-8 pt-6 border-t border-border">
                 <motion.a
-                  href="#contact"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    handleNav("#contact");
-                  }}
+                  href="/AqsaLiaqat_CV.pdf"
+                  download="AqsaLiaqat_CV.pdf"
                   className="flex items-center justify-center gap-2 w-full bg-primary text-white px-5 py-3 rounded-button text-sm font-semibold font-heading hover:bg-primary-light transition-colors"
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}

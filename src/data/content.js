@@ -1,13 +1,13 @@
 export const personalInfo = {
   name: "Dr. Aqsa Liaqat",
   fullName: "Aqsa Liaqat",
-  title: "Clinical Pharmacist & Research Cell Coordinator",
-  degree: "PharmD, MPhil Clinical Pharmacy",
+  title: "Clinical Pharmacist, Research Cell Coordinator & PhD Scholar",
+  degree: "PhD Scholar · MPhil Clinical Pharmacy · PharmD",
   email: "aqsaliaqat54@gmail.com",
   phone: "+92 315 4070735",
-  location: "Shadbagh, Lahore, Pakistan",
+  location: "Khayaban-e-Amin, Lahore, Pakistan",
   summary:
-    "Dedicated Clinical Pharmacist with an MPhil in Clinical Pharmacy and experience in academic teaching, institutional research coordination, and healthcare research. Skilled in PMDC and IRB compliance, research documentation, faculty collaboration, and evidence-based clinical practices. Passionate about advancing pharmaceutical education, clinical research, and patient-centered healthcare through academic excellence and professional leadership.",
+    "Dedicated Clinical Pharmacist and PhD Scholar in Pharmacy Practice with an MPhil in Clinical Pharmacy and experience in academic teaching, institutional research coordination, and healthcare research. Skilled in PMDC and IRB compliance, research documentation, faculty collaboration, and evidence-based clinical practices. Passionate about advancing pharmaceutical education, clinical research, and patient-centered healthcare through academic excellence and professional leadership.",
 };
 
 export const navLinks = [
@@ -17,6 +17,7 @@ export const navLinks = [
   { label: "Experience", href: "#experience" },
   { label: "Research", href: "#research" },
   { label: "Skills", href: "#skills" },
+  { label: "Services", href: "#services" },
   { label: "Achievements", href: "#achievements" },
   { label: "Contact", href: "#contact" },
 ];
@@ -24,6 +25,20 @@ export const navLinks = [
 export const education = [
   {
     id: 1,
+    degree: "PhD in Pharmacy Practice",
+    institution: "The University of Lahore",
+    department: "Department of Pharmacy",
+    duration: "2025 – Present",
+    description:
+      "Advanced doctoral research in pharmacy practice, focusing on evidence-based pharmaceutical care and healthcare outcomes.",
+    highlights: [
+      "Advanced pharmacy practice research",
+      "Evidence-based pharmaceutical care",
+      "Healthcare outcomes research",
+    ],
+  },
+  {
+    id: 2,
     degree: "MPhil in Clinical Pharmacy",
     institution: "The University of Lahore",
     department: "Department of Pharmacy",
@@ -37,7 +52,7 @@ export const education = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     degree: "Doctor of Pharmacy (PharmD)",
     institution: "The University of Lahore",
     department: "Department of Pharmacy",
@@ -50,14 +65,14 @@ export const education = [
       "Conducted comprehensive research analyzing patient compliance, medication adherence, and factors influencing treatment outcomes within public and private healthcare settings.",
   },
   {
-    id: 3,
+    id: 4,
     degree: "F.Sc. (Pre-Medical)",
     institution: "Superior College for Girls",
     location: "Nazim Town, Near Grid Station, Sahiwal",
     duration: "Completed",
   },
   {
-    id: 4,
+    id: 5,
     degree: "Matriculation (Science Group)",
     institution: "City District Government Girls High School",
     location: "Kot Khawaja Saeed, Lahore",
@@ -225,6 +240,40 @@ export const expertise = [
   "Academic Coordination",
   "Pharmaceutical Education",
   "Healthcare Communication",
+  "Pharmacy Practice Research",
+];
+
+export const services = [
+  {
+    id: 1,
+    icon: "GraduationCap",
+    title: "Research Proposals",
+    items: ["Proposal & Synopsis Writing", "Universities / CPSP / UHS"],
+  },
+  {
+    id: 2,
+    icon: "Microscope",
+    title: "Methodology Consults",
+    items: ["Research Design Consultation", "Literature Review", "Reference Management"],
+  },
+  {
+    id: 3,
+    icon: "Database",
+    title: "Data Management",
+    items: ["Data Entry", "Data Cleaning", "Questionnaire Validation"],
+  },
+  {
+    id: 4,
+    icon: "BarChart3",
+    title: "Statistical Analysis",
+    items: ["SPSS & R Analysis", "Results Interpretation", "Article Review"],
+  },
+  {
+    id: 5,
+    icon: "FileText",
+    title: "Academic Writing",
+    items: ["Thesis & Dissertation Support", "Article Writing", "Manuscript Formatting", "Journal Support & Mentorship"],
+  },
 ];
 
 export const stats = [

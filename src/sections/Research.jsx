@@ -20,7 +20,6 @@ export default function Research() {
     <section id="research" className="section-padding bg-surface">
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         <SectionHeader
-          badge="Research & Publications"
           title="Contributions to Pharmaceutical Science"
           description="Published research in peer-reviewed journals advancing clinical pharmacy and healthcare education."
         />
@@ -82,7 +81,6 @@ export default function Research() {
         </motion.div>
 
         <SectionHeader
-          badge="Conferences"
           title="Conference Participation"
           description="Active engagement in professional conferences and summits."
         />

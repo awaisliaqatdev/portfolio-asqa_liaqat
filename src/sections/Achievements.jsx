@@ -30,7 +30,6 @@ export default function Achievements() {
     <section id="achievements" className="section-padding bg-surface">
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         <SectionHeader
-          badge="Achievements & Awards"
           title="Recognition & Distinctions"
           description="Awards, honors, and professional recognition received throughout my academic and professional career."
         />

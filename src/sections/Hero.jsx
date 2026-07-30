@@ -41,16 +41,6 @@ export default function Hero() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            <motion.div
-              className="inline-flex items-center gap-2 bg-accent-10 text-accent-dark px-4 py-2 rounded-pill text-xs font-semibold font-heading mb-6"
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.2 }}
-            >
-              <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
-              Available for Collaboration
-            </motion.div>
-
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-text-primary mb-4 font-heading leading-[1.1]">
               Dr.{" "}
               <span className="gradient-text">Aqsa Liaqat</span>
@@ -129,16 +119,17 @@ export default function Hero() {
               <div className="absolute inset-0 rounded-3xl gradient-bg opacity-10 rotate-6" />
               <div className="absolute inset-0 rounded-3xl bg-surface border border-border shadow-elevated overflow-hidden">
                 <div className="absolute inset-0 flex flex-col items-center justify-center p-10 text-center">
-                  <div className="w-24 h-24 rounded-full gradient-bg flex items-center justify-center mb-6 shadow-lg">
-                    <span className="text-white font-heading font-bold text-3xl">
-                      AL
-                    </span>
+                  <div
+                    className="w-32 h-32 rounded-full gradient-bg p-1 mb-6 shadow-lg"
+                    onContextMenu={(e) => e.preventDefault()}
+                  >
+                    <div className="w-full h-full rounded-full bg-[url(/hero_photo.png)] bg-cover bg-center pointer-events-none select-none" />
                   </div>
                   <h3 className="font-heading font-bold text-xl text-text-primary mb-1">
                     Dr. Aqsa Liaqat
                   </h3>
                   <p className="text-sm text-text-muted mb-4">
-                    PharmD · MPhil Clinical Pharmacy
+                    PhD Scholar · MPhil Clinical Pharmacy · PharmD
                   </p>
                   <div className="w-12 h-0.5 bg-accent rounded-full mb-4" />
                   <p className="text-xs text-text-secondary leading-relaxed">
@@ -150,10 +141,11 @@ export default function Hero() {
                 </div>
 
                 <motion.div
-                  className="absolute top-6 right-6 w-16 h-16 rounded-2xl bg-accent-10 border border-accent/20 flex items-center justify-center"
+                  className="absolute top-4 right-4 flex items-center gap-1.5 bg-accent text-white px-3 py-1.5 rounded-pill text-[11px] font-semibold font-heading shadow-md"
                   animate={floatingAnimation}
                 >
-                  <FlaskConical size={24} className="text-accent" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
+                  Available for Collaboration
                 </motion.div>
 
                 <motion.div

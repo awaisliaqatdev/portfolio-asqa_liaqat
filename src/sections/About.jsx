@@ -40,7 +40,6 @@ export default function About() {
     <section id="about" className="section-padding bg-background">
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         <SectionHeader
-          badge="About Me"
           title="Dedicated to Advancing Pharmaceutical Excellence"
           description="Committed to improving patient outcomes through evidence-based clinical practices, research, and education."
         />

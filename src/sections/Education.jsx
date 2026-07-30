@@ -19,7 +19,6 @@ export default function Education() {
     <section id="education" className="section-padding bg-surface">
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         <SectionHeader
-          badge="Education"
           title="Academic Foundation"
           description="A strong academic journey through pharmaceutical sciences and clinical pharmacy."
         />

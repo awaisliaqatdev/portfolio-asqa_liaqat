@@ -58,7 +58,6 @@ export default function Skills() {
     <section id="skills" className="section-padding bg-background">
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         <SectionHeader
-          badge="Core Skills"
           title="Professional Competencies"
           description="A comprehensive skill set spanning clinical practice, research, compliance, and leadership."
         />
